@@ -19,20 +19,19 @@ body {
   }
   .nav-left {
     justify-content: flex-start;
-    display: block;
-    padding-top: 15px;
-    padding-left: 18px;
+    display: flex;
+    padding: 18px 15px 5px 18px;
+    position: absolute;
+    left: 5px;
     white-space: nowrap;
   }
   .nav-next {
+    justify-content: flex-start;
     display: flex;
     padding: 5px 4px 0 16px;
-    padding-left: 14px;
-    margin-left: -920px;
   }
   .searchbar {
     width: 690px;
-    max-width: 584px;
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -43,6 +42,8 @@ body {
     background-color: #fff;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
+    position: absolute;
+    left: 160px;
   }
   .search {
     display: flex;
@@ -87,8 +88,9 @@ body {
   .nav-right {
     justify-content: flex-end;
     display: block;
-    padding-top: 18px;
-    padding: 5px;
+    position: absolute;
+    padding-top: 15px;
+    right: 5px;
     white-space: nowrap;
   }
   .settings {
