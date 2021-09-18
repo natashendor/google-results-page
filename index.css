@@ -196,9 +196,45 @@ body {
 
 
 
+
+
+  
+
+  .related {
+    line-height: 28px;
+    font-size: 22px;
+    color: black;
+  }
+  .relat {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    align-items: center;
+    background-color: #f1f3f4;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative;
+    width: 310px;
+    text-decoration: none;
+    color: black;
+  }
+  .relat:hover {
+    text-decoration: underline;
+  }
+  .left-results {
+    display: inline-block;
+  }
+  .right-results {
+    display: inline-block;
+  }
   .logo-pages {
     width: 600px;
     margin-left: 180px;
+    margin-top: 10px;
   }
   .gooooogle {
     font-size: 30px;
