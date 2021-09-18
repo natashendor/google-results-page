@@ -54,7 +54,6 @@ body {
     padding-top: 4px;
     padding-left: 20px;
     color: rgba(0,0,0,.87);
-    height: 34px;
     font-size: 15px;
   }
   .search:focus {
@@ -70,11 +69,8 @@ body {
     display: flex;
     align-items: center;
     border: transparent;
-    display: inline-block;
     font-size: 25px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    margin-left: 8px;
+    height: 39px;
   }
   .search-glass {
   background-color: transparent;
@@ -196,4 +192,57 @@ body {
   .res {
     display: grid;
     max-width: 41em;
+  }
+
+
+
+  .logo-pages {
+    width: 600px;
+    margin-left: 180px;
+  }
+  .gooooogle {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .blue {
+    color: #4285f4;
+  }
+  .red {
+    color: #ea4335;
+  }
+  .yellow {
+    color: #fbbc05;
+  }
+  .green {
+    color: #34a853;
+  }
+  .next-arrow {
+    color: #4285f4;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  .pages {
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 50px;
+  }
+  .pone {
+    padding-right: 10px;
+  }
+  .page-link {
+    text-decoration: none;
+    padding-right: 10px;
+  }
+  .page-link:hover {
+    text-decoration: underline;
+  }
+  .next {
+    padding-left: 25px;
+    text-decoration: none;
+  }
+  .next:hover {
+    text-decoration: underline;
   }
